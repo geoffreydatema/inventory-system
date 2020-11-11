@@ -1,0 +1,27 @@
+Objective
+
+    In this exercise, we'll return to the programming fundamentals of logic and algorithmic thinking. This exercise involves designing the logic behind an inventory management system.
+
+    For the sake of an encapsulated learning activity, we'll treat this as an inventory system for a simple game (like an RPG), although the principles can be applied to many different projects.
+
+Requirements
+
+    Use an HTML skeleton which runs a single JavaScript file
+    
+    Create an object representing the player character and give it the following properties
+        Inventory
+        Money quantity
+        A method for displaying its own inventory
+
+    Create a separate store inventory (an array), filled with items
+
+    Each item should be an object with name, cost, and id properties
+
+    Add separate functions for the following:
+        Display store items
+        Buy item from store
+        Sell item back to store
+
+    Note that buying and selling involves moving items between inventories, and changing money balances
+
+    Every time an item is bought or sold, renumber each item in each inventory so that the items begin at #1 and increment from there. This is to solve the numbering problem that eventually arises when buying and selling arbitrary items.
